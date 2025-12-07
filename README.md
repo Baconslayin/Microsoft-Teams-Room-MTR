@@ -21,7 +21,13 @@ Set-CalendarProcessing -Identity "Conf" -ProcessExternalMeetingMessages $True -D
 Search for Microsoft Store in your Windows 10 enviroment and then the dots icon (...) and click on Downloads. 
 There you should find the app Skype Rooms Systems which is actually Teams Rooms Console. Or try this [link](https://www.microsoft.com/en-us/p/skype-room-system/9nblggh5799l?).
 
-### Manually with PS
+### Manually With Winget Package Manager
+If Microsoft Store is not installed you'd need to install Winget PS Module first.
+```
+Install-Module -Name Microsoft.WinGet.Client<img width="418" height="18" alt="image" src="https://github.com/user-attachments/assets/6691847c-af9b-48d1-9716-311eddb32af6" />
+```
+
+### Manually with Skype Room System Deployment Kit.
 At first you need the [Skype Room System Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168). 
 After the download the location for the files is `C:\Program Files (x86)\Skype Room System Deployment Kit`
 You can find the reference document [here](https://docs.microsoft.com/en-us/microsoftteams/rooms/rooms-operations#to-update-using-powershell).
