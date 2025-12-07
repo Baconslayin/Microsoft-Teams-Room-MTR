@@ -24,8 +24,12 @@ There you should find the app Skype Rooms Systems which is actually Teams Rooms 
 ### Manually With Winget Package Manager
 If Microsoft Store is not installed you'd need to install Winget PS Module first.
 ```
-Install-Module -Name Microsoft.WinGet.Client<img width="418" height="18" alt="image" src="https://github.com/user-attachments/assets/6691847c-af9b-48d1-9716-311eddb32af6" />
+Install-Module -Name Microsoft.WinGet.Client
 ```
+Now Install Skype room Systems
+```
+Winget Install 9NBLGGH5799L
+```  	
 
 ### Manually with Skype Room System Deployment Kit.
 At first you need the [Skype Room System Deployment Kit](https://go.microsoft.com/fwlink/?linkid=851168). 
